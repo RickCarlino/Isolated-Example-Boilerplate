@@ -1,0 +1,23 @@
+{
+  "name": "the_littlest_boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve src/index.html",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.3",
+    "@types/react-dom": "^16.8.1",
+    "parcel-bundler": "^1.11.0",
+    "typescript": "^3.3.3"
+  }
+}
